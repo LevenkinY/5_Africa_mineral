@@ -1,0 +1,51 @@
+name: 数据源核验
+description: 提议、核验或补充一个可用于本研究的数据源
+title: "[Data] "
+labels: ["data"]
+body:
+  - type: input
+    id: source_name
+    attributes:
+      label: 数据源名称
+      placeholder: "例如：EITI Open Data"
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: 链接
+      placeholder: "https://..."
+    validations:
+      required: false
+  - type: textarea
+    id: relevance
+    attributes:
+      label: 与研究的关系
+      description: 说明该数据源可以支撑哪个问题、变量或案例。
+    validations:
+      required: true
+  - type: textarea
+    id: fields
+    attributes:
+      label: 关键字段
+      description: 列出国家、年份、矿种、公司、项目、金额、坐标等关键字段。
+    validations:
+      required: false
+  - type: dropdown
+    id: access
+    attributes:
+      label: 数据权限
+      options:
+        - 公开可下载
+        - 需要注册
+        - 需要机构订阅
+        - 不确定
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 备注
+      description: 记录限制、风险或后续核验事项。
+    validations:
+      required: false

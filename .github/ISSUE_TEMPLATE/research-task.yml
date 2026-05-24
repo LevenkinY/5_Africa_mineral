@@ -1,0 +1,33 @@
+name: 研究任务
+description: 跟踪一项研究、写作、数据或方法任务
+title: "[Task] "
+labels: ["task"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: 目标
+      description: 这项任务要产出什么？
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 范围
+      description: 包含什么，不包含什么？
+    validations:
+      required: true
+  - type: textarea
+    id: deliverable
+    attributes:
+      label: 交付物
+      placeholder: "例如：一个 Markdown 说明、一个清洗脚本、一张数据字典、一节论文草稿"
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 可能来源
+      description: 列出相关数据库、文献、文件或联系人。
+    validations:
+      required: false

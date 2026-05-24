@@ -1,0 +1,13 @@
+# Treat Office/PDF research materials as binary in GitHub diffs.
+*.docx binary
+*.xlsx binary
+*.pdf binary
+
+# Keep text files normalized.
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.py text eol=lf
+*.R text eol=lf
+*.do text eol=lf
+*.csv text eol=lf

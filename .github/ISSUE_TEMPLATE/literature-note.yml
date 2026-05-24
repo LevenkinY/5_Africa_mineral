@@ -1,0 +1,33 @@
+name: 文献笔记
+description: 新增或讨论一篇与研究相关的文献
+title: "[Literature] "
+labels: ["literature"]
+body:
+  - type: input
+    id: citation
+    attributes:
+      label: 文献信息
+      placeholder: "作者，年份，标题，期刊/机构"
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: 链接或 DOI
+      placeholder: "https://... 或 DOI"
+    validations:
+      required: false
+  - type: textarea
+    id: summary
+    attributes:
+      label: 核心观点
+      description: 简要说明研究问题、方法和结论。
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: 对本项目的用途
+      description: 说明它支撑理论、数据、方法、案例还是政策背景。
+    validations:
+      required: true

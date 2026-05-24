@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+._*
+
+# Office temporary files
+~$*
+*.tmp
+
+# Logs and caches
+*.log
+.cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Local editor state
+.vscode/
+.idea/
+
+# Large or sensitive research data
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+!data/raw/README.md
+!data/interim/README.md
+!data/processed/README.md
+!data/external/README.md
+
+# Generated outputs
+outputs/*
+output/*
+!outputs/README.md
+tmp/
+temp/
+
+# Secrets
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+token.json
