@@ -19,7 +19,8 @@
 
 ```text
 docs/
-  260523_Worash_Getaneh访谈结果.docx      # 当前研究问题意识与访谈材料
+  interviews/                            # 访谈元数据与引用规则，原件不提交
+  proposals/                             # proposal、投稿方案与图表设计
   支撑关键矿产研究的数据库.md             # 可支撑研究的数据库清单
   call_for_papers.pdf                     # 相关会议 CFP
   proposal_全球能源转型中的非洲纽带.docx   # 早期总 proposal
@@ -27,6 +28,13 @@ docs/
   proposal_3_模型构建与因果识别.docx       # 早期模型与识别方案
   proposal_4_相关文献.xlsx                # 文献整理
   proposal_5_反馈.xlsx                    # 反馈意见整理
+literature/
+  review/                                # 文献综述工作簿、上下文 JSON 与生成说明
+  sources/                               # 期刊论文、机构报告与方法文献
+data/external/
+  price_trade/                           # 价格、贸易、EITI、公司报告等公开参考材料
+  project_inventory/                     # 项目级资产清单与商业源元数据
+_private/                                # 本地受限材料，不进入 Git
 ```
 
 ## 协作方式
@@ -63,6 +71,14 @@ paper/          # 论文草稿
 ```
 
 大型原始数据、商业数据库下载件、含权限限制的数据、个人访谈录音或敏感材料不应直接提交到公开仓库。
+
+## 项目材料目录
+
+迁移后的项目材料以 `docs/materials_index.md` 为总索引。研究设计材料放在 `docs/proposals/`；文献综述和源文献放在 `literature/`；价格、贸易和项目级资产参考材料放在 `data/external/`。
+
+## 敏感材料处理规则
+
+访谈原件、商业数据库导出、账号授权下载件和任何含个人身份信息的材料仅保存在 `_private/`。该目录由 `.gitignore` 排除；仓库只记录元数据、来源说明、用途和引用限制。
 
 ## 研究状态
 
