@@ -1,0 +1,11 @@
+矿种,HS 码,产品,非洲出口单价中位数 (千$/吨),中国出口单价中位数 (千$/吨),中国/非洲加价倍数 (中位单价比),中国占非洲出口份额 (%)
+Cobalt (DRC),260500,Ore/Concentrate,4.6,14.4,3.2x,71.6%
+Cobalt (DRC),282200,Oxide/Hydroxide,12.9,31.7,2.5x,0.0%
+Cobalt (DRC),810520,Refined Metal,8.1,32.3,4.0x,98.8%
+Lithium (Zimbabwe),253090,"Raw Mineral
+(incl. Spodumene)",0.4,0.1,0.3x,72.1%
+Lithium (Zimbabwe),282520,Li Oxide/Hydroxide,1.1,14.3,13.5x,3.1%
+Lithium (Zimbabwe),283691,Li Carbonate,0.8,15.8,20.1x,98.3%
+Copper (Zambia),260300,Ore/Concentrate,1.4,1.4,1.0x,37.6%
+Copper (Zambia),740200,Blister/Anode,8.6,5.0,0.6x,28.8%
+Copper (Zambia),740311,Refined Cathode,8.8,7.7,0.9x,20.2%

@@ -26,6 +26,8 @@ env/
 .idea/
 
 # Large or sensitive research data
+data/BACI_HS17_V202601/
+data/BACI_HS17_V202601.zip
 data/raw/*
 data/interim/*
 data/processed/*
@@ -35,10 +37,12 @@ data/external/*
 !data/processed/README.md
 !data/external/README.md
 
-# Generated outputs
+# Generated outputs (keep figures and tables, discard rest)
 outputs/*
 output/*
 !outputs/README.md
+!outputs/figures/
+!outputs/tables/
 tmp/
 temp/
 
